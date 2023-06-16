@@ -43,7 +43,7 @@ Digital Reminder Library (DRL) é uma biblioteca em Java (Android) que tem o obj
 ## Example
 
 - [Digital Reminder](https://github.com/Manvin1/Digital-Reminder)
-- 
+  
 ## License
 
 DRL está disponível sob 'dual licensing' e pode ser usado sob as licenças BSD-3 ou CC0.
