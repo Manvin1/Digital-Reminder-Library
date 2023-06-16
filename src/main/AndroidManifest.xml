@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <receiver
+            android:name="manvin.digitalreminder.digitalreminderlibrary.broadcasts.TimeReminderBroadcast"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name="manvin.digitalreminder.digitalreminderlibrary.broadcasts.LocationReminderBroadcast"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+        android:name="manvin.digitalreminder.digitalreminderlibrary.broadcasts.TimeLocationReminderDispatcherBroadcast"
+        android:enabled="true"
+        android:exported="true" />
+
+        <receiver
+            android:name="manvin.digitalreminder.digitalreminderlibrary.broadcasts.TimeLocationReminderBroadcast"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+</manifest>
