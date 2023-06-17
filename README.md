@@ -32,11 +32,13 @@ Digital Reminder Library (DRL) é uma biblioteca em Java (Android) que tem o obj
 
 ## How build and use
 
-1. Inserir o DRL como uma dependência de módulo da aplicação alvo.
+1. Use 'git clone https://github.com/Manvin1/Digital-Reminder-Library.git' para obter o DRL
 
-2. Para registrar alarmes, use Reminder Manager. Para realizar geocoding ou reverse geocoding, use LocationFinder.
+2. Insira o DRL como uma dependência de módulo da aplicação alvo.
 
-3. Caso alarmes baseados em localizações seja usado, é necessário injetar uma instância de GeocodingProvider em LocationFinder.
+3. Para registrar alarmes, use Reminder Manager. Para realizar geocoding ou reverse geocoding, use LocationFinder.
+
+4. Caso alarmes baseados em localizações seja usado, é necessário injetar uma instância de GeocodingProvider em LocationFinder.
 
    - Este objeto será usado para geocoding e reverse geocoding durante o registro de alarmes. DRL não impõe o uso de algum provedor específico, cabendo ao cliente implementar da forma que achar mais conveniente
 
